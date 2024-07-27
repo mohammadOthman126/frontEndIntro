@@ -1,0 +1,49 @@
+/* h1{
+    color:red
+}
+p{
+    color:blue
+}
+#h111{
+    color:green
+}
+.pp{
+    color:darkmagenta
+} */
+#navBar{
+    background-color: gray;
+} 
+#navBar img{
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.listt{
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    margin-top: 50px;
+
+}
+.listt li{
+    margin-right: 80px;
+}
+.navButton{
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: cyan; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.gridItem{
+    margin-left: 20px;
+    text-align: center;
+    background-color: blue;
+    padding: 50px;
+}
