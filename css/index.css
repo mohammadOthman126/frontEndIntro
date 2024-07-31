@@ -49,6 +49,9 @@ p{
     width: 250px;
     border: 2px solid black;
 }
+#butt{
+    display: none;
+}
 @media screen and (max-width:600px) {
     .gridContainer{
         grid-template-columns: auto auto;
@@ -61,6 +64,7 @@ p{
         float: none;
         margin-top:0px ;
         width: 100%;
+        display: none;
     
     }
     .gridItem{
@@ -79,5 +83,8 @@ p{
     .navButton{
         font-size: 20px;
         padding: 5px 5px;
+    }
+    #butt{
+        display: inline;
     }
 }
