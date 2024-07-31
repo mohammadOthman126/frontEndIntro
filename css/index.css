@@ -36,14 +36,48 @@ p{
 .gridContainer{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    background-color: cyan; 
+    grid-gap: 10px;  
     margin-left: 50px;
     margin-right: 50px;
 }
 .gridItem{
     margin-left: 20px;
     text-align: center;
-    background-color: blue;
     padding: 50px;
+}
+.mouseHover:hover{
+    width: 250px;
+    border: 2px solid black;
+}
+@media screen and (max-width:600px) {
+    .gridContainer{
+        grid-template-columns: auto auto;
+        display: grid;
+        grid-gap: 0px;  
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .listt{
+        float: none;
+        margin-top:0px ;
+        width: 100%;
+    
+    }
+    .gridItem{
+       width: 100%;
+       padding: 0px;
+       margin-left: 0px;
+    }
+    #navBar img{
+        margin-left: 40%;
+    }
+    .listt li{
+        margin-right: 10%;
+        width: 100%;
+        padding: 0px;
+    }
+    .navButton{
+        font-size: 20px;
+        padding: 5px 5px;
+    }
 }
