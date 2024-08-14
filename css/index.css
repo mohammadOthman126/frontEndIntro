@@ -10,8 +10,12 @@ p{
 .pp{
     color:darkmagenta
 } */
+ #contant{
+    background-color:black;
+ }
 #navBar{
-    background-color: gray;
+    background-color:darkred;
+    
 } 
 #navBar img{
     width: 100px;
@@ -41,12 +45,19 @@ p{
     margin-right: 50px;
 }
 .gridItem{
+    margin-top: 20px;
     margin-left: 20px;
     text-align: center;
     padding: 50px;
+    border: 2px solid darkred;
+    
+}
+.mouseHover{
+    transition:  0.2s;
+    
 }
 .mouseHover:hover{
-    width: 250px;
+    transform: scale(1.4);
     border: 2px solid black;
 }
 #butt{
@@ -83,8 +94,5 @@ p{
     .navButton{
         font-size: 20px;
         padding: 5px 5px;
-    }
-    #butt{
-        display: inline;
     }
 }
