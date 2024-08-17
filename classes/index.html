@@ -32,6 +32,7 @@
         <li ><a href="/classes/pag1.html"><button class="navButton">pag1</button></a></li>
         <li ><a href="/classes/pag2.html"><button class="navButton">pag2</button></a></li>
         <li ><a href="/classes/pag3.html"><button class="navButton">pag3</button></a></li>
+        <li><button class="navButton" id="pag4" onclick="contactus()">pag4</button></li>
     </ul>
     </div>
     <div id="contant">
@@ -46,7 +47,21 @@
         </div>
     </div>
     <div id="footer">
-        
+        <label>number 1</label>
+        <input type="number" id="num1">
+        <br>
+        <label>operation</label>
+        <select name="operation" id="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <br>
+        <label>number 2</label>
+        <input type="number" id="num2">
+        <button  onclick='calculate()'>calculate</button>
+        <p id="result">??</p>
     </div>
      <!-- <h1 id="h111">this is a h1</h1>
     <h1>this is a h1</h1>
@@ -79,5 +94,6 @@
     </table>
     <hr> 
     <a href="https://www.just.edu.jo/Pages/Default.aspx">JUST</a>  -->
+    <script src="/js/foody.js"></script>
 </body>
 </html>
