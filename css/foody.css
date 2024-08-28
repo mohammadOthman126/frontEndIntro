@@ -67,3 +67,49 @@ color: #39DB4A;
     color: red;
     font-size: larger;
 }
+#gridCon{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px; 
+    margin-top: 50%;
+}
+.gg{
+    width: 400px;
+    height: 400px;
+    background-color: blanchedalmond;
+   
+    border-radius: 25%;
+}
+.ggg{
+    width:100px;
+    height: 100px;
+    background-color: #39DB4A;
+   
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    margin-left: 76%;
+
+}
+.bi{
+    margin-left: 40%;
+    margin-top: 40%;
+}
+.fatoush{
+    
+    margin-left: 30%;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+
+}
+.pp{
+   font-size: xx-large;
+    
+    margin-left: 15%;
+}
+.ppp{
+    margin-left: 15%;
+}
+.pppp{
+    margin-left: 10%;
+}
